@@ -24,13 +24,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                        <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="58" y="16" width="284" height="21"/>
                                         </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="gov-AF-lZd" secondAttribute="centerX" id="1zF-dQ-DGX"/>
                                     <constraint firstAttribute="height" constant="53" id="rL1-u4-rbS"/>
                                 </constraints>
                                 <variation key="default">
@@ -39,6 +40,7 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="rL1-u4-rbS"/>
+                                        <exclude reference="1zF-dQ-DGX"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -47,6 +49,7 @@
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="rL1-u4-rbS"/>
+                                        <include reference="1zF-dQ-DGX"/>
                                     </mask>
                                 </variation>
                             </view>
