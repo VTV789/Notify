@@ -25,14 +25,27 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4C3-aL-Ags">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="rL1-u4-rbS"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="rL1-u4-rbS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="rL1-u4-rbS"/>
+                                    </mask>
                                 </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="DFw-aX-RKL" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="8" id="5aY-rG-qZY"/>
+                            <constraint firstItem="4C3-aL-Ags" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="DMb-HS-vVz"/>
+                            <constraint firstItem="4C3-aL-Ags" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="OBi-dK-8e1"/>
+                            <constraint firstAttribute="trailing" secondItem="4C3-aL-Ags" secondAttribute="trailing" id="Os4-Lp-clU"/>
                             <constraint firstAttribute="trailing" secondItem="DFw-aX-RKL" secondAttribute="trailing" id="PqL-Rf-u0D"/>
                             <constraint firstItem="DFw-aX-RKL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lJx-R7-tyn"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="DFw-aX-RKL" secondAttribute="bottom" id="mrB-S5-HuW"/>
@@ -46,6 +59,9 @@
                                 <exclude reference="5aY-rG-qZY"/>
                                 <exclude reference="PqL-Rf-u0D"/>
                                 <exclude reference="lJx-R7-tyn"/>
+                                <exclude reference="DMb-HS-vVz"/>
+                                <exclude reference="OBi-dK-8e1"/>
+                                <exclude reference="Os4-Lp-clU"/>
                                 <exclude reference="mrB-S5-HuW"/>
                             </mask>
                         </variation>
@@ -58,6 +74,9 @@
                                 <include reference="5aY-rG-qZY"/>
                                 <include reference="PqL-Rf-u0D"/>
                                 <include reference="lJx-R7-tyn"/>
+                                <include reference="DMb-HS-vVz"/>
+                                <include reference="OBi-dK-8e1"/>
+                                <include reference="Os4-Lp-clU"/>
                                 <include reference="mrB-S5-HuW"/>
                             </mask>
                         </variation>
