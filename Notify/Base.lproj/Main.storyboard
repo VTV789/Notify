@@ -16,6 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DFw-aX-RKL">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="-8" width="400" height="608"/>
+                                </variation>
+                            </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4C3-aL-Ags">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
@@ -59,12 +65,17 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DFw-aX-RKL">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="-8" width="400" height="608"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naN-Zl-OMn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Request Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="557" width="400" height="43"/>
                                 </variation>
-                            </mapView>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -78,8 +89,9 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="4C3-aL-Ags"/>
                                 <exclude reference="DFw-aX-RKL"/>
+                                <exclude reference="4C3-aL-Ags"/>
+                                <exclude reference="naN-Zl-OMn"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="5aY-rG-qZY"/>
@@ -93,8 +105,9 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="4C3-aL-Ags"/>
                                 <include reference="DFw-aX-RKL"/>
+                                <include reference="4C3-aL-Ags"/>
+                                <include reference="naN-Zl-OMn"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="5aY-rG-qZY"/>
