@@ -67,7 +67,7 @@
 			children = (
 				230370CD1B97C5E4003A5E46 /* MapKit.framework */,
 				230370CB1B97C5D4003A5E46 /* CoreLocation.framework */,
-				230370A81B97BDB1003A5E46 /* Notify */,
+				230370A81B97BDB1003A5E46 /* Vinh */,
 				230370BE1B97BDB1003A5E46 /* NotifyTests */,
 				230370A71B97BDB1003A5E46 /* Products */,
 			);
@@ -82,7 +82,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		230370A81B97BDB1003A5E46 /* Notify */ = {
+		230370A81B97BDB1003A5E46 /* Vinh */ = {
 			isa = PBXGroup;
 			children = (
 				230370AB1B97BDB1003A5E46 /* AppDelegate.swift */,
@@ -92,6 +92,7 @@
 				230370B41B97BDB1003A5E46 /* LaunchScreen.xib */,
 				230370A91B97BDB1003A5E46 /* Supporting Files */,
 			);
+			name = Vinh;
 			path = Notify;
 			sourceTree = "<group>";
 		};
