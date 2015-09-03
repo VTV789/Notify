@@ -19,7 +19,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4C3-aL-Ags">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8983 Sidelong Pl Columbia Maryland" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gov-AF-lZd">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8983 Sidelong Pl Columbia Maryland" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gov-AF-lZd">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -28,10 +28,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="gov-AF-lZd" secondAttribute="centerX" id="1zF-dQ-DGX"/>
-                                    <constraint firstItem="gov-AF-lZd" firstAttribute="leading" secondItem="4C3-aL-Ags" secondAttribute="leading" constant="58" id="EaL-cV-PZI"/>
-                                    <constraint firstItem="gov-AF-lZd" firstAttribute="top" secondItem="4C3-aL-Ags" secondAttribute="top" constant="16" id="fu1-FP-kxW"/>
-                                    <constraint firstAttribute="trailing" secondItem="gov-AF-lZd" secondAttribute="trailing" constant="58" id="p5P-wf-B2M"/>
+                                    <constraint firstAttribute="centerX" secondItem="gov-AF-lZd" secondAttribute="centerX" id="HXb-HG-UeI"/>
+                                    <constraint firstItem="gov-AF-lZd" firstAttribute="leading" secondItem="4C3-aL-Ags" secondAttribute="leading" constant="58" id="M87-nD-fQa"/>
+                                    <constraint firstAttribute="trailing" secondItem="gov-AF-lZd" secondAttribute="trailing" constant="58" id="Qz4-C2-MoG"/>
+                                    <constraint firstItem="gov-AF-lZd" firstAttribute="top" secondItem="4C3-aL-Ags" secondAttribute="top" constant="16" id="SXd-1C-hsH"/>
                                     <constraint firstAttribute="height" constant="53" id="rL1-u4-rbS"/>
                                 </constraints>
                                 <variation key="default">
@@ -40,10 +40,10 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="rL1-u4-rbS"/>
-                                        <exclude reference="1zF-dQ-DGX"/>
-                                        <exclude reference="EaL-cV-PZI"/>
-                                        <exclude reference="fu1-FP-kxW"/>
-                                        <exclude reference="p5P-wf-B2M"/>
+                                        <exclude reference="HXb-HG-UeI"/>
+                                        <exclude reference="M87-nD-fQa"/>
+                                        <exclude reference="Qz4-C2-MoG"/>
+                                        <exclude reference="SXd-1C-hsH"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -52,10 +52,10 @@
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="rL1-u4-rbS"/>
-                                        <include reference="1zF-dQ-DGX"/>
-                                        <include reference="EaL-cV-PZI"/>
-                                        <include reference="fu1-FP-kxW"/>
-                                        <include reference="p5P-wf-B2M"/>
+                                        <include reference="HXb-HG-UeI"/>
+                                        <include reference="M87-nD-fQa"/>
+                                        <include reference="Qz4-C2-MoG"/>
+                                        <include reference="SXd-1C-hsH"/>
                                     </mask>
                                 </variation>
                             </view>
