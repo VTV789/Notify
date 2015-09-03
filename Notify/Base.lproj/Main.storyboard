@@ -18,20 +18,38 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DFw-aX-RKL">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
+                                <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="0.0" y="-8" width="400" height="608"/>
                                 </variation>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DFw-aX-RKL" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="8" id="5aY-rG-qZY"/>
+                            <constraint firstAttribute="trailing" secondItem="DFw-aX-RKL" secondAttribute="trailing" id="PqL-Rf-u0D"/>
+                            <constraint firstItem="DFw-aX-RKL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lJx-R7-tyn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="DFw-aX-RKL" secondAttribute="bottom" id="mrB-S5-HuW"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="DFw-aX-RKL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5aY-rG-qZY"/>
+                                <exclude reference="PqL-Rf-u0D"/>
+                                <exclude reference="lJx-R7-tyn"/>
+                                <exclude reference="mrB-S5-HuW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="DFw-aX-RKL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5aY-rG-qZY"/>
+                                <include reference="PqL-Rf-u0D"/>
+                                <include reference="lJx-R7-tyn"/>
+                                <include reference="mrB-S5-HuW"/>
                             </mask>
                         </variation>
                     </view>
