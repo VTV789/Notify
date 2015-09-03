@@ -22,6 +22,13 @@
                                     <rect key="frame" x="0.0" y="-8" width="400" height="608"/>
                                 </variation>
                             </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4C3-aL-Ags">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="53"/>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -33,6 +40,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="DFw-aX-RKL"/>
+                                <exclude reference="4C3-aL-Ags"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="5aY-rG-qZY"/>
@@ -44,6 +52,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="DFw-aX-RKL"/>
+                                <include reference="4C3-aL-Ags"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="5aY-rG-qZY"/>
@@ -57,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1572" y="549"/>
+            <point key="canvasLocation" x="1569" y="549"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qro-3d-XfQ">
