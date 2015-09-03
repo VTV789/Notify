@@ -13,6 +13,8 @@
 		230370B31B97BDB1003A5E46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230370B21B97BDB1003A5E46 /* Images.xcassets */; };
 		230370B61B97BDB1003A5E46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230370B41B97BDB1003A5E46 /* LaunchScreen.xib */; };
 		230370C21B97BDB1003A5E46 /* NotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230370C11B97BDB1003A5E46 /* NotifyTests.swift */; };
+		230370CC1B97C5D4003A5E46 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230370CB1B97C5D4003A5E46 /* CoreLocation.framework */; };
+		230370CE1B97C5E4003A5E46 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230370CD1B97C5E4003A5E46 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		230370BB1B97BDB1003A5E46 /* NotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230370C01B97BDB1003A5E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		230370C11B97BDB1003A5E46 /* NotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyTests.swift; sourceTree = "<group>"; };
+		230370CB1B97C5D4003A5E46 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		230370CD1B97C5E4003A5E46 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230370CE1B97C5E4003A5E46 /* MapKit.framework in Frameworks */,
+				230370CC1B97C5D4003A5E46 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		2303709D1B97BDB1003A5E46 = {
 			isa = PBXGroup;
 			children = (
+				230370CD1B97C5E4003A5E46 /* MapKit.framework */,
+				230370CB1B97C5D4003A5E46 /* CoreLocation.framework */,
 				230370A81B97BDB1003A5E46 /* Notify */,
 				230370BE1B97BDB1003A5E46 /* NotifyTests */,
 				230370A71B97BDB1003A5E46 /* Products */,
@@ -409,6 +417,7 @@
 				230370C71B97BDB1003A5E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		230370C81B97BDB1003A5E46 /* Build configuration list for PBXNativeTarget "NotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				230370CA1B97BDB1003A5E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
