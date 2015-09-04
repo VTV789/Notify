@@ -148,6 +148,7 @@
                     <navigationItem key="navigationItem" title="Vinh" id="Pdg-Wi-sTO"/>
                     <connections>
                         <outlet property="address" destination="rBP-4w-Ge9" id="BvM-Oz-4Se"/>
+                        <outlet property="mapView" destination="mUH-Xx-jwx" id="6H1-B9-box"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

@@ -12,6 +12,8 @@ class LocationViewController: UIViewController {
 
     @IBOutlet weak var address: UILabel!
     
+    @IBOutlet weak var mapView: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
