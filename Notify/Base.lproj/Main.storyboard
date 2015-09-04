@@ -7,7 +7,7 @@
         <!--Vinh-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Notify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="LocationViewController" customModule="Notify" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -107,19 +107,19 @@
                                 <exclude reference="J5Q-F5-R5n"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6El-Xr-vWu"/>
-                                <exclude reference="O8m-OQ-ifA"/>
-                                <exclude reference="nZ9-VB-h1t"/>
-                                <exclude reference="9aD-yp-Y0a"/>
-                                <exclude reference="pCJ-Px-WGj"/>
-                                <exclude reference="qxS-Sf-URx"/>
+                                <exclude reference="1xw-oS-kd1"/>
+                                <exclude reference="Av7-CX-D4a"/>
+                                <exclude reference="Ikf-CQ-LVK"/>
                                 <exclude reference="8o1-Or-6CE"/>
                                 <exclude reference="FaI-1R-0fW"/>
                                 <exclude reference="Nyg-A6-jj7"/>
                                 <exclude reference="eul-QS-4WX"/>
-                                <exclude reference="1xw-oS-kd1"/>
-                                <exclude reference="Av7-CX-D4a"/>
-                                <exclude reference="Ikf-CQ-LVK"/>
+                                <exclude reference="9aD-yp-Y0a"/>
+                                <exclude reference="pCJ-Px-WGj"/>
+                                <exclude reference="qxS-Sf-URx"/>
+                                <exclude reference="6El-Xr-vWu"/>
+                                <exclude reference="O8m-OQ-ifA"/>
+                                <exclude reference="nZ9-VB-h1t"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -129,23 +129,26 @@
                                 <include reference="J5Q-F5-R5n"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6El-Xr-vWu"/>
-                                <include reference="O8m-OQ-ifA"/>
-                                <include reference="nZ9-VB-h1t"/>
-                                <include reference="9aD-yp-Y0a"/>
-                                <include reference="pCJ-Px-WGj"/>
-                                <include reference="qxS-Sf-URx"/>
+                                <include reference="1xw-oS-kd1"/>
+                                <include reference="Av7-CX-D4a"/>
+                                <include reference="Ikf-CQ-LVK"/>
                                 <include reference="8o1-Or-6CE"/>
                                 <include reference="FaI-1R-0fW"/>
                                 <include reference="Nyg-A6-jj7"/>
                                 <include reference="eul-QS-4WX"/>
-                                <include reference="1xw-oS-kd1"/>
-                                <include reference="Av7-CX-D4a"/>
-                                <include reference="Ikf-CQ-LVK"/>
+                                <include reference="9aD-yp-Y0a"/>
+                                <include reference="pCJ-Px-WGj"/>
+                                <include reference="qxS-Sf-URx"/>
+                                <include reference="6El-Xr-vWu"/>
+                                <include reference="O8m-OQ-ifA"/>
+                                <include reference="nZ9-VB-h1t"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Vinh" id="Pdg-Wi-sTO"/>
+                    <connections>
+                        <outlet property="address" destination="rBP-4w-Ge9" id="BvM-Oz-4Se"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

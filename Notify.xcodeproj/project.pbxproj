@@ -15,6 +15,7 @@
 		230370C21B97BDB1003A5E46 /* NotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230370C11B97BDB1003A5E46 /* NotifyTests.swift */; };
 		230370CC1B97C5D4003A5E46 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230370CB1B97C5D4003A5E46 /* CoreLocation.framework */; };
 		230370CE1B97C5E4003A5E46 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230370CD1B97C5E4003A5E46 /* MapKit.framework */; };
+		230370D01B992F6D003A5E46 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230370CF1B992F6D003A5E46 /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		230370C11B97BDB1003A5E46 /* NotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyTests.swift; sourceTree = "<group>"; };
 		230370CB1B97C5D4003A5E46 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		230370CD1B97C5E4003A5E46 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		230370CF1B992F6D003A5E46 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				230370B21B97BDB1003A5E46 /* Images.xcassets */,
 				230370B41B97BDB1003A5E46 /* LaunchScreen.xib */,
 				230370A91B97BDB1003A5E46 /* Supporting Files */,
+				230370CF1B992F6D003A5E46 /* LocationViewController.swift */,
 			);
 			name = Vinh;
 			path = Notify;
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230370D01B992F6D003A5E46 /* LocationViewController.swift in Sources */,
 				230370AE1B97BDB1003A5E46 /* ViewController.swift in Sources */,
 				230370AC1B97BDB1003A5E46 /* AppDelegate.swift in Sources */,
 			);
